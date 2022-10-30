@@ -1,0 +1,41 @@
+body {
+    background-color:#000000;
+    background-image: url("QR-code.png");
+    background-repeat:round;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    margin: 10em 1em;
+}
+
+.eng {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    font-size: 68px;
+
+
+    /* background-color: #202221; */
+    color: #f1f0eb;
+    text-shadow: 8px 0px 6px #000000,
+        12px 0px 4px #f1d1706b,
+        16px 0px 2px #50c3c7,
+        20px 0px 0px #bdb0ff;
+}
+
+.ch {
+    padding: 0em 0.4em;
+    font-family: 'Courier New', Courier, monospace;
+
+    color: #faf9f4;
+    text-shadow: 8px 0px 6px #000000,
+        12px 0px 4px #f1d1706b,
+        16px 0px 2px #50c3c7,
+        20px 0px 0px #bdb0ff;
+}
